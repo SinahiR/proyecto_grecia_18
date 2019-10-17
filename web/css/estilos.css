@@ -1,0 +1,168 @@
+h1{
+    text-align: center;
+}
+div
+{
+   
+}
+
+body, .default{
+    line-height: 1.6em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande";
+    font-size: 16px;
+    color:#669;
+}
+
+#lateral
+{
+     border-radius: 5px;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+    align-items: center;
+}
+
+input[type=text]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:  #801751;
+}
+
+input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:  #801751;
+}
+
+.input3
+{
+    width: 100%;
+    background-color: slateblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+.cards
+{
+   
+    width: 250px;
+    height: 50px;
+}
+
+.ejer
+{
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #9066BA;
+    
+}
+
+.azul
+{
+    color:#31061E;
+       
+}
+
+.colorletra
+{
+    color:  #801751;
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  
+  
+  .card-text
+  {
+      font-size: 20px;
+      color:black;
+  }
+  
+  .boton_inicio{
+    text-decoration: none;
+    
+    height: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+/*DISEÑO DE MAS*/
+  
+  .navul
+{
+	list-style: none; /*QUITA LAS VIÑETAS*/
+        padding: 0;
+	margin: 0;
+}
+
+.nava
+{
+	text-decoration: none; /*QUITA LO SUBRAYADO*/
+	color:black; /*COLOR DE LA LETRA*/
+	padding: 10px;
+	display: block;      
+}
+
+
+.navli
+{
+	width: 120px;
+	background-color:lightblue; /*color del navbar*/
+	font-family: "century gothic";
+
+}
+nav li:hover
+{
+	/*background-color:#1883ba; COLOR CUANDO SE SELECCIONA UNA OPCION DEL SUBMENU*/
+}
+
+
+.submenu
+{
+	display: none;
+	position:absolute;
+}
+
+.menu-item:hover .submenu   /*PARA DESPLEGAR EL MENU*/
+{
+ display:block;
+}
+
+
+  
+  
+
+
+
